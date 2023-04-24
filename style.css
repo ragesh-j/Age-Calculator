@@ -1,0 +1,54 @@
+body{
+    background-color: #ccc;
+}
+
+#main-div{
+    width:40% ;
+    border: 1px solid white;
+    background-color:lightcoral;
+    padding: 2rem;
+    margin: 10% auto;
+}
+#main-div h1{
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+#main-div .date-div label{
+    display: block;
+    font-size: large;
+    font-weight: 700;
+    color:blue;
+}
+#main-div .date-div input{
+    width: 30%;
+    height: 2rem;
+    border-width: 2px;
+}
+#main-div #age-div{
+    display: flex;
+    margin-left: 8%;   
+    
+}
+#main-div #age-div .date-div{
+ text-align: center;   
+}
+#button-div{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#button-div button{
+    padding: 5px 15px;
+    color: white;
+    background-color: rgb(31, 31, 213);
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgb(31, 31, 213);
+}
+#view-div{
+    text-align: center;
+}
+#message-div{
+ color: blue;   
+}
